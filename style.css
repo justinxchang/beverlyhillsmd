@@ -15,16 +15,10 @@
 .body {
     width: 414px;
     margin: 0 auto;
-}
-
-.center {
-    margin: 0 auto;
     text-align: center;
+    font-family: Gotham;
+    line-height: 18px;
 }
-
-
-
-
 
 /* header */
 .header {
@@ -37,12 +31,10 @@
     margin: 15px auto;
 }
 
-
 .as_seen_on {
     height: 22px;
     width: 370px;
     margin: 16px auto;
-
 }
 
 .line {
@@ -52,16 +44,15 @@
 }
 
 .caption {
-    /* height: 64px;	 */
     width: 370px;	
     color: #3A5EAC;	
     font-family: "Gotham Bold";	
     font-size: 28px;	
     line-height: 32px;	
-    text-align: center;
     margin: 11px auto;
 }
 
+/* video */
 .video {
     height: 233px;
     background-color: black;
@@ -73,6 +64,7 @@
     margin: 65.5px 155.5px 64.5px 155.5px;
 }
 
+/* next step */
 .next_step_text {
     height: 18px;	
     width: 370px;	
@@ -80,8 +72,6 @@
     font-family: "Gotham";	
     font-weight: normal;
     font-size: 11px;	
-    line-height: 18px;	
-    text-align: center;
     margin: 11px auto;
 }
 
@@ -101,7 +91,6 @@
     font-family: "Gotham Bold";	
     font-size: 22px;	
     line-height: 30px;	
-    text-align: center;	
     text-shadow: 0 1px 4px 0 rgba(0,0,0,0.25);
     vertical-align: middle;
 }
@@ -110,14 +99,13 @@
     height: 24px;
     width: 370px;
     color: #3A5EAC;
-    font-family: Gotham;
     font-size: 24px;
     font-weight: 300;
     line-height: 24px;
-    text-align: center;
     margin: 0 auto;
 }
 
+/* bullets */
 .bullets {
     height: 332px;
     width: 370px;
@@ -127,30 +115,28 @@
 
 .bullets_ul {
     padding: 24px 0px 26px 40px;
-
 }
-
 
 .bullets_li {
     color: #333333;
-    font-family: Gotham;
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .natural {
 	height: 90px;
 	width: 370px;
 	color: #333333;
-	font-family: Gotham;
 	font-size: 16px;
-	line-height: 18px;
     margin: 32px 22px;
+    text-align: left;
 }
 
+/* benefits */
 .benefits {
-    text-align: center;
+
 }
 
 .benefits_points {
@@ -162,35 +148,30 @@
 .benefits_image {
     height: 135px;
     width: 134px;
-    /* margin: 19px 16px; */
 }
 
 .benefits_text {
 	height: 72px;
 	width: 170px;
 	color: #333333;
-	font-family: Gotham;
 	font-size: 16px;
-	line-height: 18px;
-    text-align: center;
     padding: 1px;
 }
 
+/* footer */
 .footer {
     height: 368px;
     background-color: #3962A2;
-    /* margin: 0 auto; */
-    padding: 26px;
+    padding: 22px;
+    color: #FFFFFF;
+    font-size: 14px;
 }
 
 .phone_number {
     height: 40px;	
-    width: 270px;	
-    color: #FFFFFF;	
-    font-family: Gotham;	
-    font-size: 14px;	
+    width: 270px;		
     line-height: 20px;	
-    text-align: center;
+    margin: 0 auto;
 }
 
 .phone_icon {
@@ -199,33 +180,14 @@
 }
 
 .footer_address {
-	height: 54px;
-	width: 270px;
-	color: #FFFFFF;
-	font-family: Gotham;
-	font-size: 14px;
-	line-height: 18px;
-    text-align: center;
     margin-top: 22px;
     margin-bottom: 18px;
 }
 
 .footer_disclaimer {
 	height: 135px;
-	width: 370px;
-	color: #FFFFFF;
-	font-family: Gotham;
-	font-size: 14px;
-	line-height: 18px;
-	text-align: center;
 }
 
 .footer_copyright {
-	height: 36px;
-	width: 370px;
-	color: #FFFFFF;
-	font-family: Gotham;
 	font-size: 9px;
-	line-height: 18px;
-    text-align: center;
 }
