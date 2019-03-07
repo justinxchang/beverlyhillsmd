@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("./fonts/GothamMedium.otf")
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("./fonts/GothamBook.otf")
+}
+
+.body {
+    width: 414px;
+    margin: 0 auto;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
+/* header */
+.header {
+
+}
+
+.header_logo {
+    height: 34px;
+    width: 185px;
+    margin: 15px auto;
+}
+
+
+.as_seen_on {
+    height: 22px;
+    width: 370px;
+    margin: 16px auto;
+
+}
+
+.line {
+    height: 2px;	
+    width: 441px;	
+    border: 1px solid #979797;
+}
+
+.caption {
+    /* height: 64px;	 */
+    width: 370px;	
+    color: #3A5EAC;	
+    font-family: "Gotham Bold";	
+    font-size: 28px;	
+    line-height: 32px;	
+    text-align: center;
+    margin: 11px auto;
+}
+
+.video {
+    height: 233px;
+    background-color: black;
+}
+
+.video_button {
+    height: 103px;
+    width: 103px;
+    margin: 65.5px 155.5px 64.5px 155.5px;
+}
+
+.next_step_text {
+    height: 18px;	
+    width: 370px;	
+    color: #333333;	
+    font-family: "Gotham";	
+    font-weight: normal;
+    font-size: 11px;	
+    line-height: 18px;	
+    text-align: center;
+    margin: 11px auto;
+}
+
+.next_step_button {
+    height: 45px;	
+    width: 292px;	
+    border: 1px solid #B56A32;	
+    border-radius: 9px;	
+    background: linear-gradient(180deg, #FEA551 0%, #B56A32 100%);
+    margin: 4px auto 38px auto;
+}
+
+.next_step_button_text {
+    height: 30px;	
+    width: 271px;	
+    color: #FFFFFF;	
+    font-family: "Gotham Bold";	
+    font-size: 22px;	
+    line-height: 30px;	
+    text-align: center;	
+    text-shadow: 0 1px 4px 0 rgba(0,0,0,0.25);
+    vertical-align: middle;
+}
+
+.next_step_in_this_video {
+    height: 24px;
+    width: 370px;
+    color: #3A5EAC;
+    font-family: Gotham;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bullets {
+    height: 332px;
+    width: 370px;
+    background-color: #f4f4f4;
+    margin: 11px auto 34px auto;
+}
+
+.bullets_ul {
+    padding: 24px 0px 26px 40px;
+
+}
+
+
+.bullets_li {
+    color: #333333;
+    font-family: Gotham;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.natural {
+	height: 90px;
+	width: 370px;
+	color: #333333;
+	font-family: Gotham;
+	font-size: 16px;
+	line-height: 18px;
+    margin: 32px 22px;
+}
+
+.benefits {
+    text-align: center;
+}
+
+.benefits_points {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 10px;
+}
+
+.benefits_image {
+    height: 135px;
+    width: 134px;
+    /* margin: 19px 16px; */
+}
+
+.benefits_text {
+	height: 72px;
+	width: 170px;
+	color: #333333;
+	font-family: Gotham;
+	font-size: 16px;
+	line-height: 18px;
+    text-align: center;
+    padding: 1px;
+}
+
+.footer {
+    height: 368px;
+    background-color: #3962A2;
+    /* margin: 0 auto; */
+    padding: 26px;
+}
+
+.phone_number {
+    height: 40px;	
+    width: 270px;	
+    color: #FFFFFF;	
+    font-family: Gotham;	
+    font-size: 14px;	
+    line-height: 20px;	
+    text-align: center;
+}
+
+.phone_icon {
+    height: 11px;
+    width: 11px;
+}
+
+.footer_address {
+	height: 54px;
+	width: 270px;
+	color: #FFFFFF;
+	font-family: Gotham;
+	font-size: 14px;
+	line-height: 18px;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 18px;
+}
+
+.footer_disclaimer {
+	height: 135px;
+	width: 370px;
+	color: #FFFFFF;
+	font-family: Gotham;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.footer_copyright {
+	height: 36px;
+	width: 370px;
+	color: #FFFFFF;
+	font-family: Gotham;
+	font-size: 9px;
+	line-height: 18px;
+    text-align: center;
+}
